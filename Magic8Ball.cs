@@ -20,8 +20,7 @@ namespace _1Monday
             do
             {
                 Console.WriteLine("Ask me a question: ");
-                string question = Console.ReadLine().ToLower();
-                if (question == "what is the meaning of life?" || question == "what is the meaning of life") //Gimmick saying the meaning of life is 42.
+                if (Console.ReadLine().ToLower() == "what is the meaning of life?" || Console.ReadLine().ToLower() == "what is the meaning of life") //Gimmick saying the meaning of life is 42.
                 {
                     Console.WriteLine("The answer you are looking for is 42.");
                     Console.WriteLine("Would you like to ask me another question? (Y/N):");
