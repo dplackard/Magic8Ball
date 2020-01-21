@@ -25,8 +25,7 @@ namespace _1Monday
                 {
                     Console.WriteLine("The answer you are looking for is 42.");
                     Console.WriteLine("Would you like to ask me another question? (Y/N):");
-                    string askAnother = Console.ReadLine().ToLower();
-                    if (askAnother == "y" || askAnother == "yes")
+                    if (Console.ReadLine().ToLower() == "y" || Console.ReadLine().ToLower() == "yes")
                     {
                         Console.Clear();
                     }//end if
